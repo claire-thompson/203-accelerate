@@ -46,3 +46,162 @@ Text Domain:  accelerate-theme-child
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/* Case Studies */
+
+.case-study {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 30px;
+}
+
+.case-study-sidebar {
+    width: 300px;
+    justify-self: start;
+}
+
+.case-study-images {
+    width: 550px;
+    justify-self: end;
+}
+
+.case-study-images img {
+    width: 100%;
+    margin-bottom: 55px;
+}
+
+.case-study h4, p {
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+
+.case-study h2 {
+    font-weight: 500;
+    font-size: 1.4em;
+    margin: 60px 0 0 0;
+    color: #000000;
+    font-family: 'Open Sans';
+}
+
+.case-study h4 {
+    color: #a6a6a6;
+    font-size: 0.76em;
+    margin: 0 0 10px 0;
+}
+
+.case-study h4 span {
+    color: #3b3b3b;
+}
+
+.case-study-sidebar p {
+    margin: 25px 0 0 0;
+    font-size: 1em;
+}
+
+.read-more-link a{
+    font-size: 0.76em
+}
+
+.back-arrow {
+    border-top: 1px solid #a6a6a6;
+}
+
+.back-arrow p {
+    font-size: 0.76em;
+    margin: 17px 0 -17px 0;
+    text-transform: uppercase;
+}
+
+.back-arrow span {
+    color: #45ac9d;
+}
+
+/* Case Studies Archive */
+
+.case-study-images .archive {
+    justify-self: end;
+}
+
+img.archive-image {
+    margin: 0 0 10px 0;
+}
+
+/* Featured Work Section */
+
+.hero-content {
+    margin-bottom: 0;
+}
+
+.featured-work h4 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.featured-work ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 70px 0;
+}
+
+.featured-work h3 {
+    font-weight: 400;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+.featured-work-image {
+    width: 100%;
+}
+
+.featured-work-image img {
+    height: 200px;
+}
+
+/* Recent Blog Posts */
+
+.blog-post h3 {
+    margin: 30px 0;
+}
+
+/* Footer */
+
+.social-media-navigation {
+    display: flex;
+    justify-content: flex-end;
+    width: 85px;
+}
+
+.menu-social-media-nav-container {
+    width: 100%;
+}
+
+.social-media-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    width: 100%;
+}
+
+.social-media-menu li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-color: #3b3b3b;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.social-media-menu a {
+    color: #ffffff;
+}
+
+#menu-item-14 a {
+    font-size: 1.1em;
+}
